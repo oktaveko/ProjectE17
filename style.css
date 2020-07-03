@@ -19,7 +19,7 @@ form, input, div {
     text-decoration: none;
   }
  .clear {
-    clear: left;
+    clear: Left;
   }
   
 ul  li {
@@ -28,8 +28,10 @@ ul  li {
 
 /*mulai code disini */
 .container{
-  width: 1170px;
-margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 @font-face{
   font-family: 'cabin';
@@ -77,10 +79,20 @@ nav a:hover{
   padding: 0 20px;
   color: white;
 }
+.menu-icon {
+  color:white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
 .logo-kanan{
   line-height: ;
   float: right;
   padding-top: 15px ;
+  padding-right: 30px;
+
 }.logo-kanan h3{
   opacity: 0.5;
 }
@@ -88,6 +100,7 @@ nav a:hover{
   color: white;
   float: right;
   padding-top: 20%;
+  max-width: 100%;
 }
 header h1{
   font-size: 100px;
@@ -150,7 +163,9 @@ main {
   font-size: 23px;
   color: red;
 }
-
+.menus{
+  max-width: 100%;
+}
 .menu-container {
     max-width: 1170px;
     width: 100%;
@@ -303,7 +318,7 @@ main {
     transition: all 0.35s ease;
   }
   .profile-box-dum{
-    background-color: black;
+    display: none;
   }
   .koki-wrapper {
     background-image: url("./aset/back-gelap.jpg");

@@ -1,0 +1,70 @@
+
+@media (max-width: 1000px){
+    .top-paragrap h1{
+        font-size: 50px;
+    }
+    .top-paragrap h1{
+        font-size: 25px;
+    }
+    .logo-kanan{
+        display: none;
+    }
+    .menu{
+        width: 50%;
+    }
+    .container{
+        width: 100%;
+    }
+    .text-contents{
+        height: 80px;
+    }
+    .box-contain{
+        width: 50%;
+    }
+
+}
+
+@media (max-width:670px){
+    .logo-kanan h3,.logo-kanan h2{
+        color: white;
+    }
+    .logo-kanan{
+        display: none;
+    }
+    nav a{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu-icon{
+        color: black;
+        display:block;
+      }
+    .container{
+        width: 100%;
+    }
+    .text-contents{
+        height: 80px;
+    }
+    .box-contain{
+        width: 100%;
+    }
+    .tempat{
+        border-radius: 25px;
+        margin-top: 25px;
+         width : 100px;
+         height: 100px;
+    }
+    .p-lok{
+        height: 50px;
+        margin-bottom: 50px;
+    }
+    footer{
+        text-align: center;
+    }
+    .kontak-list{
+        display: none;
+    }
+    }
+}
