@@ -33,6 +33,9 @@ ul  li {
   padding: 0 15px;
   margin: 0 auto;
 }
+.fa{
+  margin-right: 5px;
+}
 @font-face{
   font-family: 'cabin';
   src: url(font/cabin/CabinCondensed-Bold.ttf);
