@@ -309,6 +309,37 @@ main {
     padding-right: 1%;
     text-align: center;
   }
+
+
+  .nama-lokasi {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+  }
+  .lokasi {
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+  }
+  .lokasi-1 {
+    /* display: inline-block; */
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+
+  }
+  .p-lok {
+    padding: 10px;
+  }
+ .tempat{
+   border-radius: 50px;
+   margin-top: 50px;
+    width : 200px;
+    height: 200px;
+  }
   /* ======= Fotter ============ */
 .footer-logo {
     float: left;
