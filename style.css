@@ -161,6 +161,97 @@ main {
     font-weight: normal;
   }
 
+.box-contain{
+  width: 33%;
+  float: left;
+  margin-bottom: 60px;
+
+}
+  .profile-box {
+    width: 100%;
+    min-width: 230px;
+    max-width: 315px;
+    margin: 0 auto;
+    
+    background-color: rgb(226, 218, 218);
+    border: 5px solid white;
+  }
+  
+  
+  
+  .profile-box .profile-image {
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+    border: 2px solid #474747;
+  }
+  
+  .profile-box .profile-image img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  .profile-box figcaption {
+    width: 100%;
+    background-color: #444444;
+    color:white;
+    padding: 125px 25px 25px;
+    margin-top: -100px;
+    display: inline-block;
+    opacity: 0.8;
+  }
+  
+  .profile-box h3,
+  .profile-box h4,
+  .profile-box p {
+    margin: 0 0 5px;
+  }
+  
+  .profile-box h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+  
+  .profile-box h4 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  .profile-box p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+  }
+  
+  .icons {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .profile-box i {
+    padding: 10px 2px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.75;
+  }
+  
+  .profile-box i:hover {
+    opacity: 1;
+    transition: all 0.35s ease;
+  }
+  .koki-wrapper {
+    background-image: url("./aset/back-gelap.jpg");
+    background-size: cover;
+    padding-bottom: 60px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+  }
   /* ======= Fotter ============ */
 .footer-logo {
     float: left;
@@ -187,3 +278,9 @@ main {
     padding: 40px;
     width: 100%;
   }
+
+
+
+
+
+
