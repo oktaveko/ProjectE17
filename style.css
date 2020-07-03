@@ -301,6 +301,9 @@ main {
     opacity: 1;
     transition: all 0.35s ease;
   }
+  .profile-box-dum{
+    background-color: black;
+  }
   .koki-wrapper {
     background-image: url("./aset/back-gelap.jpg");
     background-size: cover;
