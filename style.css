@@ -28,37 +28,94 @@ ul  li {
 
 /*mulai code disini */
 .container{
-    width: 1170px;
-    margin: 0 auto;
+  width: 1170px;
+margin: 0 auto;
 }
-header a{
-    float: left;
-    display: block;
+@font-face{
+  font-family: 'cabin';
+  src: url(font/cabin/CabinCondensed-Bold.ttf);
 }
-header {
-    font-family: sans-serif;
-    position: relative;
-    width: 100%;
-    height: 80px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+@font-face{
+  font-family: 'cabin2';
+  src: url(font/cabin/CabinCondensed-Regular.ttf);
 }
-header a{
-    /* float: left; */
-    font-size: 15px;
-    text-transform: uppercase;
-    color: black;
-    text-decoration: none;
-    line-height: 80px;
-    position: relative;
-    z-index: 10;
-    text-align: center;
-    margin: 0 10px;
-    display: inline;
-}header .logo{
-    font-size: 36px;
-    line-height: 80px;
-    float: left;
+nav a{
+  float: left;
+  display: inline;
+  
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 80px;
+  color: #4a4a4a;
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color:rgba(255, 255, 255, 1);    
+}
 
+
+nav .logo{
+
+  float: left;
+  display:inline-block;
+  margin-right: 20px;
+ line-height: 80px;
+ font-size: 40px;
+  font-family: cabin;
+}
+header{
+  background-image: url(aset/background.jpg);
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+}
+nav a:hover{
+  background-color: #b3b3b3;
+  padding: 0 20px;
+  color: white;
+}
+.logo-kanan{
+  line-height: ;
+  float: right;
+  padding-top: 15px ;
+}.logo-kanan h3{
+  opacity: 0.5;
+}
+.top-paragrap{
+  color: white;
+  float: right;
+  padding-top: 20%;
+}
+header h1{
+  font-size: 100px;
+}
+header h2{
+  font-size: 50px;
+}
+.ORDER{
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 10px;
+  margin-top:10px;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: cabin2;
+  text-decoration: none;
+  color:white;
+  box-shadow:0px 7px #1a7940;
+  
+ 
+}
+.ORDER:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+
+}
+header p{
+  margin-top: 10px;
 }
 /*===Edited====*/
 main {
